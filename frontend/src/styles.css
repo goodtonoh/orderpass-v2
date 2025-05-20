@@ -50,4 +50,39 @@ body {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
   }
 
-  
+  .offcanvas {
+    height: 80vh !important;
+  }
+
+  .offcanvas-body {
+    overflow: hidden;
+  }
+
+  .offcanvas-custom {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    overflow: hidden;
+  }
+
+  .menu-image {
+    max-height: 60vh;
+    object-fit: contain;
+  }
+
+  .cart-button {
+    font-size: 18px;
+    padding: 12px 80px;
+    margin-top: 2px;
+    background-color: #ff9900;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  .cart-button:hover {
+      background-color: #e68200; /* 호버 시 더 진한 오렌지 */
+  }
+
+
